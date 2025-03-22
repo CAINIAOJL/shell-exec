@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 for test in Alabama Alaska Arizona Arkansas California Colorado
 do

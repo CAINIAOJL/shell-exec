@@ -1,3 +1,4 @@
+#!/bin/sh
 hello shell
 hello shell
 hello shell

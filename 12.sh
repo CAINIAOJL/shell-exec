@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 echo "##############################################"
 echo 
 echo "     This sript checks your linux system for popular"

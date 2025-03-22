@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 temp=$(mktemp -t record.XXXXXXXXXX)
 datafile="data.txt"

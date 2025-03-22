@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 exec 1>testout
 

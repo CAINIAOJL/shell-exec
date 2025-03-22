@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #trap "echo 'Sorry! I have trapped Ctrl-C'" SIGINT
 #trap "echo Goodbye!" EXIT

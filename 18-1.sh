@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #GUI dialog menu sql
 

@@ -1,3 +1,4 @@
+#!/bin/sh
 echo "###########################################"
 echo "if you are bash $0 with -t IPV4/IPV6 [ipaddree], go ahead"
 echo "###########################################"
@@ -86,31 +87,3 @@ do
         choice=1 #退出循环，进入文件内容输出阶段
     fi
 done
-
-if [[ -f "$REPLY" && -r "$REPLY" && -s "$REPLY" ]]; then
-    echo "you input file is a file, is readable and is not empty"
-    echo
-    #管道运算符
-    cat $REPLY | while read line
-    do 
-        ipaddress=$line
-        read line
-        iptype=$line
-        if [ "$iptype" == "IPV4" ]; then
-            pingAlive=$(which ping)
-        elif [ "$iptype" == "IPV6" ]; then
-            pingAlive=$(which ping6)
-        else 
-            echo "please input IPV4 or IPV6 for -t"
-            exit 1
-        fi
-        echo "checking system ip address, ping now ..."
-        $pingAlive -c 3 $ipaddress
-        echo
-    done
-    echo "finished process ping ip address"
-else
-    echo "you input file is not a file or is not readable or is empty"
-    exit 1
-fi
-exit 0

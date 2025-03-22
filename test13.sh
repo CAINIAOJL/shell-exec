@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #func1() {
     #echo "trying to display the func1 no-exist-file"

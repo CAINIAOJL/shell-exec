@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "User info for userid: $USER"
 echo UID: $UID

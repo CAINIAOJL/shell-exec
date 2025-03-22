@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 echo "----------------------------------------------------"
 if pwd; then 
     echo "pwd is true, pwd is" $pwd

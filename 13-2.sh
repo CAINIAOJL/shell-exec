@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #crv: userId,userName
 echo "$HOME"
 input="$HOME/shell-exec/users.csv"
